@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import ked from '../assets/ked3j1.jpg'
+import kedImg from '../assets/Female-performer-songs-in-audio-recording-studioNomad_Souls.webp'
 
 const Container = styled.div`
   width: 100%;
@@ -46,16 +48,11 @@ const JamTwo = () => {
       <Wrapper>
         <BoxContainer>
           <Boxes>
-            <img
-              src="https://img.freepik.com/free-photo/cute-young-woman-playing-guitar-indoors_23-2149140612.jpg?w=2000"
-              alt="cover"
-            />
+          <img src={ked} alt="" />
+         
           </Boxes>
           <Boxes>
-            <img
-              src="https://assets.cntraveller.in/photos/626aa5af3c1dc6cdeba390f1/master/w_1600%2Cc_limit/Entre%2520nos%2520live%2520at%2520the%2520Heritage%2520Home%2520Concert.jpg"
-              alt="cover"
-            />
+          <img src={kedImg} alt="" />
           </Boxes>
         </BoxContainer>
       </Wrapper>

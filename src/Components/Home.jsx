@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import JamThree from "./JamThree";
 import { useState } from "react";
 
+
 const Container = styled.div`
   width: 100%;
   height: 110vh;
@@ -39,7 +40,7 @@ const Home = () => {
         ) : (
           <HomeDefaultContent />
         )}
-
+      
         <Footer />
       </Wrapper>
     </Container>

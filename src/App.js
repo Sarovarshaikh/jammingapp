@@ -1,10 +1,20 @@
+import { BrowserRouter, Routes,Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home";
+import UseRefPalyer from "./Components/UseRefPalyer";
 
 function App() {
   return (
     <>
-      <Home />
+    <BrowserRouter>
+    
+    <Routes>
+      <Route  path="/" element ={<Home />} />
+      <Route  path="video" element ={<UseRefPalyer/>} />
+    </Routes>
+    </BrowserRouter>
+      
+      
     </>
   );
 }

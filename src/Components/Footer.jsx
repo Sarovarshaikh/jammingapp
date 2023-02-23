@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import imagSnip from "../assets/snip1.png";
+// import UseRefPalyer from "./UseRefPalyer";
+import {Link, useNavigate} from 'react-router-dom'
 const Container = styled.div`
   width: 100%;
   height: 90px;
@@ -48,6 +50,8 @@ const Right = styled.div`
 `;
 
 const Footer = () => {
+ 
+
   return (
     <Container>
       <Wrapper>
@@ -62,7 +66,13 @@ const Footer = () => {
             <i class="fa-solid fa-volume-high"></i>
           </div>
           <div className="video">
+            {/* <a href="/useref">
             <i class="fa-solid fa-video"></i>
+            </a> */}
+            {/* <button onClick={goToVideo}>
+            <i class="fa-solid fa-video"></i>
+            </button> */}
+            <Link to="video" ><i class="fa-solid fa-video"></i></Link>
           </div>
           <div className="mic">
             <i class="fa-solid fa-microphone-slash"></i>

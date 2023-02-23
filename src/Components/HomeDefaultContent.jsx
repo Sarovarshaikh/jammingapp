@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import ked from '../assets/ked3j1.jpg'
+import kedImg from '../assets/Female-performer-songs-in-audio-recording-studioNomad_Souls.webp'
+import img3 from '../assets/img3.jpg'
+import img4 from '../assets/img4.jpg'
 
 const Container = styled.div`
   width: 100%;
@@ -45,29 +49,18 @@ const HomeDefaultContent = () => {
       <Wrapper>
         <BoxContainer>
           <Boxes>
-            <img
-              src="https://img.freepik.com/free-photo/cute-young-woman-playing-guitar-indoors_23-2149140612.jpg?w=2000"
-              alt="cover"
-            />
+          <img src={ked} alt="" />
+         
           </Boxes>
           <Boxes>
-            <img
-              src="https://assets.cntraveller.in/photos/626aa5af3c1dc6cdeba390f1/master/w_1600%2Cc_limit/Entre%2520nos%2520live%2520at%2520the%2520Heritage%2520Home%2520Concert.jpg"
-              alt="cover"
-            />
+          <img src={kedImg} alt="" />
           </Boxes>
           <Boxes>
-            <img
-              src="https://img.freepik.com/free-photo/elearning-cute-young-beautiful-girl-remotely-home-taking-violin-classes_140725-167346.jpg?w=2000"
-              alt="cover"
-            />
+          <img src={img3} alt="" />
           </Boxes>
 
           <Boxes>
-            <img
-              src="https://media.istockphoto.com/id/1149030677/photo/student-playing-drums-while-listening-music-at-class.jpg?s=612x612&w=0&k=20&c=JV-7fK4m4UidZzd25MlIbjK1qNJ3URobTrDI9EOnxHQ="
-              alt="cover"
-            />
+          <img src={img4} alt="" />
           </Boxes>
         </BoxContainer>
       </Wrapper>

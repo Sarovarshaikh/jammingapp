@@ -1,0 +1,51 @@
+.grid{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.gridVideo{
+    display: flex;
+    justify-content: center;
+}
+.btn1,.btn2{
+    padding: 10px 20px;
+    background: green;
+    border: none;
+    cursor: pointer;
+    color: wwhite;
+    margin: 0px 10px;
+    color: white;
+    border-radius: 20px
+}
+.btn2{
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    cursor: pointer;
+    color: wwhite;
+    margin: 0px 10px;
+    color: white;
+    border-radius: 20px
+}
+.btn1:hover,.btn2:hover{
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: wwhite;
+    margin: 0px 10px;
+    color: green;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 2px green;
+}
+.btn2:hover{
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    color: wwhite;
+    margin: 0px 10px;
+    color: red;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 2px red;
+}
